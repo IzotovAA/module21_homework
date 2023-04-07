@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.container {
+    margin: 10px auto;
+    width: 90vw;
+}
+
+.container > h1 {
+    width: 15vw;
+    margin: 20px auto;
+    color: grey;
+}
+
+.form-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.container-input {
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-list {
+    width: 50%;
+}
+
+.data-list {
+    width: fit-content;
+}
+
+.data-list__item {
+    width: 100%;
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px 15px 15px 15px;
+    font-size: 18px;
+    background-color: rgb(199, 208, 215);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: green;
+}
+
+.todo {
+    color: tomato;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+label {
+    font-size: 18px;
+    color: grey;
+    font-weight: 600;
+}
+
+#input {
+    width: 290px;
+    height: 30px;
+    margin: 5px auto 20px auto;
+    font-size: 16px;
+    padding: 0 5px;
+    background-color: blanchedalmond;
+}
+
+#input:focus {
+    background-color: rgb(231, 179, 101);
+}
+
+#button {
+    width: 304px;
+    height: 50px;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: rgb(238, 207, 168);
+    border-radius: 10px;
+    border: none;
+}
+
+#button:hover {
+    background-color: rgb(231, 179, 101);
+}
